@@ -5,29 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="SEDU - Sistema Educacional de Dados Unificados">
   <title>SEDU - Sistema Educacional de Dados Unificados</title>
+    <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="512x512" href="Fav/web-app-manifest-512x512.png">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <!-- ======== HEADER ======== -->
   <header class="header">
-    <div class="container">
-      <div class="logo">SEDU</div>
-      <nav class="nav">
-        <a href="#proposito">Propósito</a>
-        <a href="#funcionalidades">Funcionalidades</a>
-        <a href="#impacto">Impacto</a>
-        <a href="#seguranca">Segurança</a>
-      </nav>
-      <div class="login-compact">
-        <input type="text" id="user" placeholder="Usuário">
-        <input type="password" id="password" placeholder="Senha">
-        <button id="login-btn">Entrar</button>
-        <div class="login-msg" id="login-msg"></div>
-      </div>
+  <div class="container">
+    <div class="logo">
+      <img src="img/SEDU LOGO.png" alt="logo-sedu">
     </div>
-  </header>
 
+    <nav class="nav">
+      <a href="#proposito">Propósito</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#impacto">Impacto</a>
+      <a href="#seguranca">Segurança</a>
+    </nav>
+
+    <div class="login-compact">
+      <input type="text" id="user" placeholder="Usuário">
+      <input type="password" id="password" placeholder="Senha">
+      <button id="login-btn">Entrar</button>
+
+      <div class="login-links">
+        <a href="#" id="cadastro-link">Cadastre-se</a>
+        <a href="#" id="forgot-link">Esqueceu a senha?</a>
+      </div>
+
+      <div class="login-msg" id="login-msg"></div>
+    </div>
+  </div>
   <!-- ======== HERO ======== -->
   <section class="hero fade-in">
     <div class="hero-content">
@@ -39,8 +50,7 @@
         <a href="#proposito" class="btn-secondary">Saiba Mais</a>
       </div>
     </div>
-    <div class="hero-image"></div>
-    <img src="img\estudante.png" alt="Estudantes" class="hero-image2">
+    <img src="img/img-crianca-fundo-amarelo-1.png" alt="Estudantes" class="hero-image2">
   </section>
 
   <!-- ======== SEÇÕES ======== -->
@@ -65,17 +75,17 @@
     <div class="proposito-imagens">
       <div class="imagem-item">
         <div class="imagem-fundo">
-          <img src="img1.jpg" alt="Educação colaborativa">
+          <img src="img/crianca-estudante.png" alt="Criança">
         </div>
       </div>
       <div class="imagem-item">
         <div class="imagem-fundo">
-          <img src="img/1-professora-circulo-sem-fundo.png" alt="Gestão integrada">
+          <img src="img/1-professora-circulo-sem-fundo.png" alt="Professora">
         </div>
       </div>
       <div class="imagem-item">
         <div class="imagem-fundo">
-          <img src="img3.jpg" alt="Análise de dados escolares">
+          <img src="img/adolestente-estudante-2.png" alt="Adolescente">
         </div>
       </div>
     </div>
